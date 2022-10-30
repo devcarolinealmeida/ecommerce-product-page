@@ -6,17 +6,18 @@ module.exports = {
     './index.html',
   ],
   theme: {
-    colors: {
-      'orange': rgb(255, 125, 26),
-      'oragne-light': 	rgb(255, 237, 224),
-      'dark-blue': rgb(29, 32, 37),
-      'grayish-blue': rgb(182, 188, 200),
+    extend: {
+      colors: {
+        'orange': '#ff7d1a',
+        'oragne-light': '#ffede0',
+        'dark-blue': '#1d2025',
+        'grayish-blue': '#b6bcc8',
+      },
+      fontFamily: {
+        'primary': ['Kumbh Sans', 'sans-serif'],
+        'seconday': ['Roboto Slab', 'serif'],
+      },
     },
-    fontFamily: {
-      sans: ['Kumbh Sans', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
-    },
-    extend: {},
   },
   plugins: [],
 }
